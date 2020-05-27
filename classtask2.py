@@ -75,7 +75,7 @@ class Subnet(IP):
 
 	def propmask(self):
 		masklist=self.getmask()
-		return f"Net Mask : [{masklist[0]}.{masklist[1]}.{masklist[2]}.{masklist[3]}"
+		return f"Net Mask : [{masklist[0]}.{masklist[1]}.{masklist[2]}.{masklist[3]}]"
 
 Sub=Subnet([192,168,10,1],26)
 print(Sub)
